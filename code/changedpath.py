@@ -1,4 +1,4 @@
-__author__ = 'pramod'
+__author__ = 'sudharshanasl'
 
 from sklearn.preprocessing import LabelEncoder
 from sklearn.cross_validation import train_test_split
@@ -14,7 +14,7 @@ import rf_classify
 import csv
 from sklearn import preprocessing
 
-inputfile = '/home/pramod/Documents/Crime_Data_Analysis/data/output_for_rf.csv'
+inputfile = '/home/sudharshanasl/Semesters/7th/DMDW/lab proj/output_for_rf.csv'
 
 time_of_day = {'Morning':0, 'Afternoon':1, 'Evening':2, 'Night':3}
 type_of_day_encoding = {'Weekday':0, 'Weekend':1}
@@ -45,7 +45,7 @@ def predict_arrest():
     print classification_report(testTarget, model.predict(testData),target_names = targetNames)
 
 
-    # predicted_file = '/home/pramod/Documents/Crime_Data_Analysis/data/output_predicted.csv'
+    # predicted_file = '/home/sudharshanasl/Semesters/7th/DMDW/lab proj/output_predicted.csv'
     # with open(predicted_file, 'w') as csvoutput:
     #     writer = csv.writer(csvoutput, lineterminator='\n')
     #     for row,op in zip(testData,testTarget):
