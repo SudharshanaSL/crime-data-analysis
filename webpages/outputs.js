@@ -110,17 +110,17 @@ function showDomestic(){
         color: colors[0],
         drilldown: {
             name: 'Yes',
-            categories: ['Yes','No'],
-            data: [0.03333333333333333, 13.206666666666667],
+            categories: ['No','Yes'],
+            data: [0.03, 13.21],
             color: colors[0]
         }
     }, {
-        y: 86.75333333333333,
+        y: 86.76,
         color: colors[1],
         drilldown: {
             name: 'No',
-            categories: ['Yes','No'],
-            data: [3.6366666666666667, 83.11666666666666],
+            categories: ['No','Yes'],
+            data: [3.64, 83.12],
             color: colors[1]
         }
     }],
@@ -213,26 +213,26 @@ function showTimeOfDay() {
             color: colors[0],
             drilldown: {
                 name: 'Morning',
-                categories: ['Yes','No'],
-                data: [0.5933333333333334, 18.946666666666665],
+                categories: ['No','Yes'],
+                data: [0.59, 18.95],
                 color: colors[0]
             }
         }, {
-            y: 30.643333333333334,
+            y: 30.66,
             color: colors[1],
             drilldown: {
                 name: 'Afternoon',
-                categories: ['Yes','No'],
-                data: [0.6966666666666667, 29.946666666666665],
+                categories: ['No','Yes'],
+                data: [0.69, 29.95],
                 color: colors[1]
             }
         }, {
-            y: 17.063333333333333,
+            y: 17.06,
             color: colors[2],
             drilldown: {
                 name: 'Evening',
-                categories: ['Yes','No'],
-                data: [1.6433333333333333, 15.42],
+                categories: ['No','Yes'],
+                data: [1.64, 15.42],
                 color: colors[2]
             }
         }, {
@@ -240,8 +240,8 @@ function showTimeOfDay() {
             color: colors[3],
             drilldown: {
                 name: 'Night',
-                categories: ['Yes','No'],
-                data: [0.7366666666666667, 32.00333333333333],
+                categories: ['No','Yes'],
+                data: [0.74, 32.00],
                 color: colors[3]
             }
         }],
@@ -329,21 +329,21 @@ function showDayType(){
     var colors = Highcharts.getOptions().colors,
     categories = ['Weekend','Weekday'],
     data = [{
-        y: 27.616666666666667,
+        y: 27.62,
         color: colors[0],
         drilldown: {
             name: 'Weekend',
-            categories: ['Yes','No'],
-            data: [1.74, 25.876666666666665],
+            categories: ['No','Yes'],
+            data: [1.74, 25.88],
             color: colors[0]
         }
     }, {
-        y: 72.37666666666667,
+        y: 72.38,
         color: colors[1],
         drilldown: {
             name: 'Weekday',
-            categories: ['Yes','No'],
-            data: [1.93, 70.44666666666667],
+            categories: ['No','Yes'],
+            data: [1.93, 70.45],
             color: colors[1]
         }
     }],
@@ -647,28 +647,28 @@ function showDistricts() {
         credits_databasis_str_activities = "",
         activities_category_names = ['14', '24', '4', '10', '16', '19', '3', '15', '9', '5', '17', '18', '7', '12', '1', '2', '11', '25', '20', '6', '22', '8'],
         activities_category_data = [
-                {                    y: 4.53             ,        drilldown:{                        name:'Arrest Chances -  14 ',                        data:[                            ['true',  0.0 ] ,                            ['false', 4.53 ]                        ]                    }                }, 
-                {                    y: 2.993333333333333 ,                    drilldown:{                        name:'Arrest Chances -  24 ',                        data:[                            ['true',  0.0 ] ,                            ['false', 2.993333333333333 ]                        ]                    }                }, 
-                {                    y: 5.266666666666667  ,                   drilldown:{                        name:'Arrest Chances -  4 ',                        data:[                            ['true',  0.0 ] ,                            ['false', 5.266666666666667 ]                        ]                    }                }, 
-                {                    y: 4.156666666666666   ,                  drilldown:{                        name:'Arrest Chances -  10 ',                        data:[                            ['true',  0.0 ] ,                            ['false', 4.156666666666666 ]                        ]                    }                }, 
-                {                    y: 3.16             ,        drilldown:{                        name:'Arrest Chances -  16 ',                        data:[                            ['true',  0.0 ] ,                            ['false', 3.16 ]                        ]                    }                }, 
-                {                    y: 4.88              ,       drilldown:{                        name:'Arrest Chances -  19 ',                        data:[                            ['true',  0.0 ] ,                            ['false', 4.88 ]                        ]                    }                }, 
-                {                    y: 4.783333333333333  ,                   drilldown:{                        name:'Arrest Chances -  3 ',                        data:[                            ['true',  0.0 ] ,                            ['false', 4.783333333333333 ]                        ]                    }                }, 
-                {                    y: 4.533333333333333   ,                  drilldown:{                        name:'Arrest Chances -  15 ',                        data:[                            ['true',  1.8433333333333333 ] ,                            ['false', 2.69 ]                        ]                    }                }, 
-                {                    y: 5.1033333333333335   ,                  drilldown:{                        name:'Arrest Chances -  9 ',                        data:[                            ['true',  0.023333333333333334 ] ,                            ['false', 5.08 ]                        ]                    }                }, 
-                {                    y: 4.026666666666666     ,                drilldown:{                        name:'Arrest Chances -  5 ',                        data:[                            ['true',  0.0 ] ,                            ['false', 4.026666666666666 ]                        ]                    }                }, 
-                {                    y: 2.95                   ,  drilldown:{                        name:'Arrest Chances -  17 ',                        data:[                            ['true',  0.0 ] ,                            ['false', 2.95 ]                        ]                    }                }, 
-                {                    y: 4.62                    , drilldown:{                        name:'Arrest Chances -  18 ',                        data:[                            ['true',  0.01 ] ,                            ['false', 4.61 ]                        ]                    }                }, 
-                {                    y: 5.66                     ,drilldown:{                        name:'Arrest Chances -  7 ',                        data:[                            ['true',  0.0 ] ,                            ['false', 5.66 ]                        ]                    }                }, 
-                {                    y: 5.05              ,       drilldown:{                        name:'Arrest Chances -  12 ',                        data:[                            ['true',  0.0 ] ,                            ['false', 5.05 ]                        ]                    }                }, 
-                {                    y: 2.9833333333333334 ,                    drilldown:{                        name:'Arrest Chances -  1 ',                        data:[                            ['true',  0.0 ] ,                            ['false', 2.9833333333333334 ]                        ]                    }                }, 
-                {                    y: 6.476666666666667   ,                  drilldown:{                        name:'Arrest Chances -  2 ',                        data:[                            ['true',  0.0 ] ,                            ['false', 6.476666666666667 ]                        ]                    }                }, 
-                {                    y: 6.536666666666667    ,                 drilldown:{                        name:'Arrest Chances -  11 ',                        data:[                            ['true',  1.79 ] ,                            ['false', 4.746666666666667 ]                        ]                    }                }, 
-                {                    y: 5.78                  ,   drilldown:{                        name:'Arrest Chances -  25 ',                        data:[                            ['true',  0.0 ] ,                            ['false', 5.78 ]                        ]                    }                }, 
-                {                    y: 1.8666666666666667     ,                drilldown:{                        name:'Arrest Chances -  20 ',                        data:[                            ['true',  0.0 ] ,                            ['false', 1.8666666666666667 ]                        ]                    }                }, 
-                {                    y: 5.116666666666666  ,                   drilldown:{                        name:'Arrest Chances -  6 ',                        data:[                            ['true',  0.0 ] ,                            ['false', 5.116666666666666 ]                        ]                    }                }, 
-                {                    y: 3.14                ,     drilldown:{                        name:'Arrest Chances -  22 ',                        data:[                            ['true',  0.0 ] ,                            ['false', 3.14 ]                        ]                    }                }, 
-                {                    y: 6.3133333333333335   ,                  drilldown:{                        name:'Arrest Chances -  8 ',                        data:[                            ['true',  0.0 ] ,                            ['false', 6.3133333333333335 ]                        ]                    }                }
+                { y: 4.53, drilldown:{ name:'Arrest Chances -  14 ', data:[ ['false', 0.0 ] , ['true', 4.53 ] ] } }, 
+                { y: 3.00, drilldown:{ name:'Arrest Chances -  24 ', data:[ ['false', 0.01 ] , ['true', 2.99 ] ] } }, 
+                { y: 5.27, drilldown:{ name:'Arrest Chances -  4 ', data:[ ['false', 0.0 ] , ['true', 5.27 ] ] } }, 
+                { y: 4.16, drilldown:{ name:'Arrest Chances -  10 ', data:[ ['false', 0.0 ] , ['true', 4.16 ] ] } }, 
+                { y: 3.16, drilldown:{ name:'Arrest Chances -  16 ', data:[ ['false', 0.0 ] , ['true', 3.16 ] ] } }, 
+                { y: 4.88, drilldown:{ name:'Arrest Chances -  19 ', data:[ ['false', 0.0 ] , ['true', 4.88 ] ] } }, 
+                { y: 4.79, drilldown:{ name:'Arrest Chances -  3 ', data:[ ['false', 0.0 ] , ['true', 4.79 ] ] } }, 
+                { y: 4.54, drilldown:{ name:'Arrest Chances -  15 ', data:[ ['false', 1.85 ] , ['true', 2.69 ] ] } }, 
+                { y: 5.11, drilldown:{ name:'Arrest Chances -  9 ', data:[ ['false', 0.03 ] , ['true', 5.08 ] ] } }, 
+                { y: 4.03, drilldown:{ name:'Arrest Chances -  5 ', data:[ ['false', 0.0 ] , ['true', 4.03 ] ] } }, 
+                { y: 2.95, drilldown:{ name:'Arrest Chances -  17 ', data:[ ['false', 0.0 ] , ['true', 2.95 ] ] } }, 
+                { y: 4.62, drilldown:{ name:'Arrest Chances -  18 ', data:[ ['false', 0.01 ] , ['true', 4.61 ] ] } }, 
+                { y: 5.66, drilldown:{ name:'Arrest Chances -  7 ', data:[ ['false', 0.0 ] , ['true', 5.66 ] ] } }, 
+                { y: 5.05, drilldown:{ name:'Arrest Chances -  12 ', data:[ ['false', 0.0 ] , ['true', 5.05 ] ] } }, 
+                { y: 2.99, drilldown:{ name:'Arrest Chances -  1 ', data:[ ['false', 0.0 ] , ['true', 2.99 ] ] } }, 
+                { y: 6.48, drilldown:{ name:'Arrest Chances -  2 ', data:[ ['false', 0.0 ] , ['true', 6.48 ] ] } }, 
+                { y: 6.54, drilldown:{ name:'Arrest Chances -  11 ', data:[ ['false', 1.79 ] , ['true', 4.75 ] ] } }, 
+                { y: 5.78, drilldown:{ name:'Arrest Chances -  25 ', data:[ ['false', 0.0 ] , ['true', 5.78 ] ] } }, 
+                { y: 1.87, drilldown:{ name:'Arrest Chances -  20 ', data:[ ['false', 0.0 ] , ['true', 1.87 ] ] } }, 
+                { y: 5.12, drilldown:{ name:'Arrest Chances -  6 ', data:[ ['false', 0.0 ] , ['true', 5.12 ] ] } }, 
+                { y: 3.14, drilldown:{ name:'Arrest Chances -  22 ', data:[ ['false', 0.0 ] , ['true', 3.14 ] ] } }, 
+                { y: 6.33, drilldown:{ name:'Arrest Chances -  8 ', data:[ ['false', 0.0 ] , ['true', 6.33 ] ] } }
             ]
     var colors = Highcharts.getOptions().colors,
             categories = activities_category_names,
