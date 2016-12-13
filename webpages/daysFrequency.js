@@ -707,21 +707,21 @@ function dayDonut() {
     var colors = Highcharts.getOptions().colors,
         categories = ['Weekday','Weekend'],
         data = [{
-            y: 72.91031716381225,
+            y: 58.42,
             color: colors[0],
             drilldown: {
                 name: 'Weekday',
                 categories: ['Monday',  'Tuesday', 'Wednesday','Thursday'],
-                data: [14.448355192008966,14.762962817311285,14.847513616611282,14.361838095050828],
+                data: [14.45,14.76,14.85,14.36],
                 color: colors[0]
             }
         }, {
-            y: 27.08968283618774,
+            y: 41.58,
             color: colors[1],
             drilldown: {
                 name: 'Weekend',
                 categories: ["Friday","Saturday","Sunday"],
-                data: [14.489647442829895,14.265489509801993,12.824193326385748],
+                data: [14.49,14.27,12.82],
                 color: colors[1]
             }
         }],
